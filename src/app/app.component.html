@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Side Nav hover buttons below -->
+
+  <div id="mySidenav" class="sidenav">
+    <a routerLink="/login" routerLinkActive="active" id="LogIn">Home</a>
+    <a routerLink="/register" routerLinkActive="active" id="Insurance">Register</a>
+    <a routerLink="/products" routerLinkActive="active" id="projects">Products</a>
+    <a routerLink="/dummy" routerLinkActive="active" id="AboutUs">About us</a>
+
+  </div>
+
+  <!-- Side Nav ends  -->
+
+  <!-- Carousel code from below  -->
+
+
+
+  <div class="heading" style="margin-left:80px;" >
+    <h2 align="center" style="color:White"><b>Lexcorp Insurance Company</b></h2>
+    <p align="center" style="color:White">Make your life Stressfree and Easy</p>
+  </div>
+
+  
+</body>
+
+
+
+</html>
+
+
+<!-- Inspired by https://codepen.io/transportedman/pen/NPWRGq -->
+
+<div class="carousel slide carousel-fade" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    </div>
+    <div class="item">
+    </div>
+    <div class="item">
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

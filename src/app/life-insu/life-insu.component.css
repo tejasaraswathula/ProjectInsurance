@@ -1,0 +1,15 @@
+.logmain {
+    width: 100%;
+    text-align: center;
+}
+
+.input-group,#name,#password,#email,#phone,#confirmPassword {
+    width: 100%;
+    height: 40px;
+}
+
+#id1 {
+    margin-top: 20px;
+    margin-left: -50px;
+    width: 100%;
+}
